@@ -1,0 +1,31 @@
+{
+  "name": "hw_babel",
+  "version": "1.0.0",
+  "description": "install babel",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sych95/AJS-HW1.2-babel-.git"
+  },
+  "keywords": [
+    "babel"
+  ],
+  "author": "Sych95",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sych95/AJS-HW1.2-babel-/issues"
+  },
+  "homepage": "https://github.com/Sych95/AJS-HW1.2-babel-#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8"
+  },
+  "dependencies": {
+    "core-js": "^3.19.0"
+  }
+}
